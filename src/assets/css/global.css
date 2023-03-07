@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Phage Rough";
+  font-style: normal;
+  src: url('../fonts/PhageRough.otf')
+}
+
+@font-face {
+  font-family: "Phage Regular";
+  font-style: normal;
+  src: url('../fonts/PhageRegular.otf')
+}
+
+@font-face {
+  font-family: "Nidus Sans Regular";
+  font-style: normal;
+  src: url('../fonts/NidusSansRegular.ttf')
+}
+
+.font-phage__rough {
+  font-family: "Phage Rough";
+}
+
+.font-phage__regular {
+  font-family: "Phage Regular";
+}
+
+.font-nidus_sans__reguar {
+  font-family: "Nidus Sans Regular";
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.text-shadow {
+  filter: drop-shadow(0 5px 25px var(--secondary-text-color));
+}
