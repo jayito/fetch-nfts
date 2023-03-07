@@ -1,6 +1,6 @@
 # List of NFTS
 
-This is using [React.JS](https://reactjs.org/) and [TailwindCSS](https://tailwindcss.com/).
+This is using [React.JS](https://reactjs.org/), [TailwindCSS](https://tailwindcss.com/) and using [Moralis API](https://moralis.io/).
 - This is working on Ethereum Mainnet.
 - You should input NFT contract address to fetch data.
 ![preview](src/assets/images/preview.png)
